@@ -3,12 +3,12 @@ import './app.module.css';
 import Login from './components/login/login';
 import Maker from './components/maker/maker';
 import styles from './app.module.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App({ FileInput, authService, cardRepository }) {
   return (
     <div className={styles.app}>
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route
             exact
@@ -34,7 +34,7 @@ function App({ FileInput, authService, cardRepository }) {
             )}
           />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
