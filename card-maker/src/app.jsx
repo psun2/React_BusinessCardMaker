@@ -8,7 +8,7 @@ import { HashRouter, BrowserRouter, Route, Switch } from 'react-router-dom';
 function App({ FileInput, authService, cardRepository }) {
   return (
     <div className={styles.app}>
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route
             exact
@@ -34,7 +34,7 @@ function App({ FileInput, authService, cardRepository }) {
             )}
           />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
