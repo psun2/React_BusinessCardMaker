@@ -1,0 +1,4 @@
+/* Post css 에서의 css 변수화 */
+/* @value key: value; */
+
+@value mediaQuery: 62rem;

@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: red;
+  width: 100%;
+  height: 50px;
+}
+
+.container {
+  /* flex-grow: 1; */
+  /* flex-shrink: 1;  => 변화 없음 why? 줄어들때 이니까... */
+  flex-basis: 100%;
+  /* flex-basis: 100%; ===  flex-grow: 1; */
+  /* basis : 기본 값 */
+  /* grow : 증가량 */
+  /* shrink : 감소량 */
+}
+
+.fotter {
+  background-color: violet;
+  width: 100%;
+  height: 100px;
+}

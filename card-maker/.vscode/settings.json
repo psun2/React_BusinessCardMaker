@@ -1,0 +1,44 @@
+{
+  // TODO: 아이콘 theme
+  "workbench.iconTheme": "vscode-icons",
+  //TODO: theme
+  "workbench.colorTheme": "Community Material Theme",
+  // TODO: HTML CSS Support 설정
+  // TODO: Remote Style Sheets 의 내용은 자신이 사용할 프레임워크의 CDN 주소를 입력합니다.
+  "css.remoteStyleSheets": [
+    // TODO: BootStrap
+    "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css",
+    // TODO: Material (google)
+    "https://code.getmdl.io/1.3.0/material.indigo-pink.min.css",
+    // TODO: Material icon (google)
+    "https://fonts.googleapis.com/icon?family=Material+Icons",
+    // TODO: FontAwesome
+    "https://kit.fontawesome.com/5d1d5aa1e7.js"
+  ],
+  "css.fileExtensions": ["css", "scss"],
+  //TODO: 편집기 형식 저장 (저장시 정렬(?))
+  "editor.formatOnSave": true,
+  // TODO: 자바스크립트 기본 편집기 사용 off
+  "javascript.format.enable": false,
+  // TODO: prettier 설정
+  "prettier.singleQuote": true, // 홀따옴표 사용
+  "prettier.semi": true, // 세미콜론
+  "prettier.useTabs": false, // tab 대신 스페이스를 사용합니다.
+  "prettier.tabWidth": 2, // tab 은 2칸
+  "prettier.trailingComma": "all", // 객체, 배열 모든요소에 ,(콤마)
+  "prettier.printWidth": 80,
+  "window.zoomLevel": 0,
+  "files.autoSave": "off",
+  "workbench.startupEditor": "newUntitledFile",
+  "code-runner.clearPreviousOutput": true,
+
+  // TODO: visualstudio code 자체 설정
+  "workbench.colorCustomizations": {
+    // action bar 색 변경시 에만 수정
+    "titleBar.activeBackground": "#3F708D",
+    "titleBar.inactiveBackground": "#3F708D"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#d39e9e" //TODO:  주석 색상변경
+  }
+}
