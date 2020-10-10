@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React_BusinessCardMaker/static/css/main.7d97f49f.chunk.css",
-    "main.js": "/React_BusinessCardMaker/static/js/main.22f22baf.chunk.js",
-    "main.js.map": "/React_BusinessCardMaker/static/js/main.22f22baf.chunk.js.map",
+    "main.js": "/React_BusinessCardMaker/static/js/main.52e946d6.chunk.js",
+    "main.js.map": "/React_BusinessCardMaker/static/js/main.52e946d6.chunk.js.map",
     "runtime-main.js": "/React_BusinessCardMaker/static/js/runtime-main.2fdd80ab.js",
     "runtime-main.js.map": "/React_BusinessCardMaker/static/js/runtime-main.2fdd80ab.js.map",
     "static/js/2.5a0b4b36.chunk.js": "/React_BusinessCardMaker/static/js/2.5a0b4b36.chunk.js",
     "static/js/2.5a0b4b36.chunk.js.map": "/React_BusinessCardMaker/static/js/2.5a0b4b36.chunk.js.map",
     "index.html": "/React_BusinessCardMaker/index.html",
-    "precache-manifest.bef388ccee81a56216b3e939b2353912.js": "/React_BusinessCardMaker/precache-manifest.bef388ccee81a56216b3e939b2353912.js",
+    "precache-manifest.25901615164d373e4e57485f5b273a42.js": "/React_BusinessCardMaker/precache-manifest.25901615164d373e4e57485f5b273a42.js",
     "service-worker.js": "/React_BusinessCardMaker/service-worker.js",
     "static/css/main.7d97f49f.chunk.css.map": "/React_BusinessCardMaker/static/css/main.7d97f49f.chunk.css.map",
     "static/js/2.5a0b4b36.chunk.js.LICENSE.txt": "/React_BusinessCardMaker/static/js/2.5a0b4b36.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2fdd80ab.js",
     "static/js/2.5a0b4b36.chunk.js",
     "static/css/main.7d97f49f.chunk.css",
-    "static/js/main.22f22baf.chunk.js"
+    "static/js/main.52e946d6.chunk.js"
   ]
 }
