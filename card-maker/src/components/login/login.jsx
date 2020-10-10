@@ -7,6 +7,7 @@ import styles from './login.module.css';
 
 const Login = ({ authService }) => {
   const history = useHistory();
+  console.log('history : ', history);
   const goToMaker = (userId) => {
     // 로그인이 되면 maker 화면으로...
     history.push({
