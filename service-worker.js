@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/React_BusinessCardMaker/precache-manifest.dbfa61f5bbcb89f0ccbc8b9e40b48f42.js"
+  "/React_BusinessCardMaker/precache-manifest.bef388ccee81a56216b3e939b2353912.js"
 );
 
 self.addEventListener('message', (event) => {
